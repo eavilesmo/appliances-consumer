@@ -1,0 +1,10 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: consumer-service
+  rabbitmq:
+    broker-url: tcp://127.0.0.1:5672
+    username: someuser
+    password: somepassword
+    host: localhost
